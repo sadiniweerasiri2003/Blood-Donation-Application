@@ -1,19 +1,10 @@
 <script setup>
-import Landing from "@/components/Landing.vue";
-import ShowData from "@/components/ShowData.vue";
+// No need to import components here as they're handled by the router
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <Landing/>
-    </div>
-  </header>
-
-  <main>
-  </main>
+  <router-view></router-view>
 </template>
 
 <style scoped>
-
 </style>

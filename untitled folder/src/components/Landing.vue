@@ -229,7 +229,7 @@ export default {
         </div>
         <hr class="my-4">
         <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
-        <button class="w-100 btn btn-primary btn-lg" type="submit">View Data</button>
+        <button class="w-100 btn btn-primary btn-lg" @click="$router.push('/show-data')">View Data</button>
       </form>
     </div>
   </div>
